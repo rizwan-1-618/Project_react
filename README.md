@@ -1,16 +1,42 @@
-# React + Vite
+# ☁️ Simple Weather Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview  
+The **Simple Weather Checker** is a React application that allows users to check the weather for any city using the OpenWeatherMap API. It demonstrates core React concepts like state management, API calls, controlled inputs, and conditional rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features  
 
-## React Compiler
+### Core Functionality  
+- Search weather by city name  
+- Fetch real-time weather data  
+- Display:  
+  - City name  
+  - Temperature  
+  - Weather condition  
+- Toggle temperature between **°C and °F**  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 UI States  
+- **Loading** → Shows "Loading..." while fetching data  
+- **Error** → Displays message if city is not found  
+- **Empty** → Before any search is made  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⭐ Bonus Features  
+- Display weather icon  
+- Save last searched cities  
+
+---
+
+## 🛠️ Tech Stack  
+- React  
+- useState  
+- useEffect  
+- OpenWeatherMap API  
+
+---
+
+## 📂 Project Structure  
